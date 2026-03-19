@@ -1,7 +1,7 @@
 .weather-app {
-  background-color: #4f6dff; /* deeper, richer blue */
+  background-color: #4f6dff;
   max-width: 600px;
-  box-shadow: 10px 10px #2e3acc; /* darker shadow for depth */
+  box-shadow: 10px 10px #2e3acc;
   margin: 20px auto;
   padding: 30px;
   border-radius: 15px;
@@ -9,43 +9,60 @@
 }
 
 body {
-  background-color: #e6edff; /* much softer background */
+  background-color: #e6edff;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 h1 {
-  color: #ffffff; /* pure white for clarity */
+  color: #f0f4ff;
+  font-size: 40px;
 }
 
 p {
-  color: #f0f4ff; /* softer than pure white */
+  color: #f0f4ff;
+  padding-bottom: 20px;
+}
+
+.temperature {
+  color: #f0f4ff;
 }
 
 footer {
-  color: #dbe3ff; /* subtle footer text */
+  color: #dbe3ff;
+  border-top: #efefef solid 1px;
+  padding-top: 10px;
+  font-size: 13px;
 }
 
-.search {
+.search-form-input {
   background-color: #ffffff;
   border: #2e3acc 2px solid;
   padding: 10px;
   border-radius: 10px;
+  width: 80%;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.submit {
-  background-color: #ffffff;
+.search-form-button {
+  background-color: #f0f4ff;
   border: #2e3acc 2px solid;
   padding: 10px;
   border-radius: 10px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 10px;
 }
 
-.submit:hover {
+.search-form-button:hover {
   background-color: #2e3acc;
-  color: #ffffff;
+  color: #f0f4ff;
 }
 
 .link {
-  color: #1a2bb8; /* clearer, clickable blue */
+  color: #f0f4ff;
 }
