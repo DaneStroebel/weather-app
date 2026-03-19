@@ -1,3 +1,51 @@
-.body {
-  background: blue;
+.weather-app {
+  background-color: #4f6dff; /* deeper, richer blue */
+  max-width: 600px;
+  box-shadow: 10px 10px #2e3acc; /* darker shadow for depth */
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 15px;
+  border: #2e3acc 1px solid;
+}
+
+body {
+  background-color: #e6edff; /* much softer background */
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: #ffffff; /* pure white for clarity */
+}
+
+p {
+  color: #f0f4ff; /* softer than pure white */
+}
+
+footer {
+  color: #dbe3ff; /* subtle footer text */
+}
+
+.search {
+  background-color: #ffffff;
+  border: #2e3acc 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.submit {
+  background-color: #ffffff;
+  border: #2e3acc 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: #2e3acc;
+  color: #ffffff;
+}
+
+.link {
+  color: #1a2bb8; /* clearer, clickable blue */
 }
