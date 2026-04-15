@@ -151,10 +151,12 @@ main {
   padding-bottom: 20px;
 }
 .weather-forecast-icon {
-  font-size: 48px;
-  text-align: center;
-  line-height: 30px;
+  width: 88px;
+  height: 88px;
 
+  display: block;
+  margin: 0 auto;
+  line-height: 30px;
   padding-bottom: 20px;
 }
 .weather-forecast {
